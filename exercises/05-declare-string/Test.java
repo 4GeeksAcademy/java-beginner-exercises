@@ -22,7 +22,7 @@ public class Test{
     public void testAdd() {
         App a = new App();
         a.main(new String[0]);
-        int index = outContent.indexOf("Bienvenido");
+        int index = outContent.toString().indexOf("Bienvenido");
         if (index == 0){
          	assertTrue(true);
         }else{
