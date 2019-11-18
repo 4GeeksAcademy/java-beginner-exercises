@@ -28,7 +28,7 @@ public class Test{
         int bien = outContent.toString().indexOf("MUY BIEN");
         int regular = outContent.toString().indexOf("REGULAR");
         int pesimo = outContent.toString().indexOf("PESIMO");
-        if (index >= 0){
+        if (excelente >= 0){
          	assertTrue(true);
         }else{
             if (bien >= 0){

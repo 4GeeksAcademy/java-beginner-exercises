@@ -22,6 +22,6 @@ public class Test{
     public void testAdd() {
         App a = new App();
         a.main(new String[0]);
-        assertEquals("es igual", outContent.toString());
+        assertEquals("es igual\n", outContent.toString());
     }
 }

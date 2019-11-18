@@ -9,6 +9,6 @@ class App
         if (cadena1.equals(cadena2))
         {
             System.out.println ("es igual"); 
-        }   
-     }
+        }
+    }
 }

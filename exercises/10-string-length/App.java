@@ -3,8 +3,8 @@ class App
 {    
     public static void main(String args[])
     {
-       String original = "hola mundo";       
-       longitud = original.length();
-       System.out.println(longitud);       
+       String original = "hola mundo";
+       int longitud = original.length();
+       System.out.println(longitud);
     }
 }

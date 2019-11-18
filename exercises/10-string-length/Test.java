@@ -23,6 +23,6 @@ public class Test{
         App a = new App();
         a.main(new String[0]);
         
-        assertEquals(10, outContent.toString());
+        assertEquals(10+"\n", outContent.toString());
     }
 }

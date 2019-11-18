@@ -3,8 +3,8 @@ class App
 {    
     public static void main(String args[])
     {
-       String original = "HOLA MUNDO";       
-       String minuscula = original.toLowerCase();
-       System.out.println(minuscula);       
+       String original = "HOLA MUNDO";
+       String minuscula = original.toUpperCase();
+       System.out.println(minuscula);
     }
 }

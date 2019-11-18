@@ -8,6 +8,6 @@ class App
         if (cadena1 == cadena2)
         {
             System.out.println ("es igual"); 
-        }  
-     }
+        }
+    }
 }
