@@ -26,7 +26,7 @@ public class Test{
         String[] valor = {"Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"};
         int c= 0;
         for (int i = 0; i < valor.length; i++) {
-			if (valor[i].equalsIgnoreCase(outContent.toString())) {
+			if (valor[i]+"\n".equalsIgnoreCase(outContent.toString())) {
 				c++;
 			}
 		}
