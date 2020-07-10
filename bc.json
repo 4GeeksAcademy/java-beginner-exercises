@@ -1,12 +1,23 @@
 {
     "port": 3000,
-    "address": "localhost",
+    "address": "https://d1d91bee-5c6b-4532-aeb3-00cf2a3da3b6.ws-us02.gitpod.io",
+    "editor": "gitpod",
+    "configPath": {
+        "config": "bc.json",
+        "base": ".learn",
+        "exercises": "./exercises",
+        "output": ".learn/dist"
+    },
+    "outputPath": "./.learn/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": null,
+    "webpack_template": null,
+    "disable_grading": false,
+    "onCompilerSuccess": null,
     "language": "java",
     "compiler": "java",
     "tester": "junit",
-    "editor": "gitpod",
-    "ignoreRegex": null,
-    "grading": "isolated",
     "actions": [
         "run",
         "test"
@@ -16,17 +27,311 @@
         {
             "slug": "00-welcome",
             "title": "00-welcome",
-            "path": "exercises/00-welcome"
+            "path": "exercises/00-welcome",
+            "translations": [
+                "us"
+            ],
+            "graded": false
         },
         {
             "slug": "01-hello-world",
             "title": "01-hello-world",
-            "path": "exercises/01-hello-world"
+            "path": "exercises/01-hello-world",
+            "translations": [
+                "us"
+            ],
+            "graded": true
         },
         {
-            "slug": "02-function-hello",
-            "title": "02-function-hello",
-            "path": "exercises/02-function-hello"
+            "slug": "02-conditions-simple",
+            "title": "02-conditions-simple",
+            "done": false,
+            "path": "exercises/02-conditions-simple",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "03-conditions-operator",
+            "title": "03-conditions-operator",
+            "done": false,
+            "path": "exercises/03-conditions-operator",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "04-conditions-operator-dos",
+            "title": "04-conditions-operator-dos",
+            "done": false,
+            "path": "exercises/04-conditions-operator-dos",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "05-conditions-switch-case",
+            "title": "05-conditions-switch-case",
+            "done": false,
+            "path": "exercises/05-conditions-switch-case",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "06-conditions-switch-case_two",
+            "title": "06-conditions-switch-case_two",
+            "done": false,
+            "path": "exercises/06-conditions-switch-case_two",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "07-instanceof-operator",
+            "title": "07-instanceof-operator",
+            "done": false,
+            "path": "exercises/07-instanceof-operator",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "08-string-declare-variable",
+            "title": "08-string-declare-variable",
+            "done": false,
+            "path": "exercises/08-string-declare-variable",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "09-string-replace",
+            "title": "09-string-replace",
+            "done": false,
+            "path": "exercises/09-string-replace",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "10-string-substring",
+            "title": "10-string-substring",
+            "done": false,
+            "path": "exercises/10-string-substring",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "11-string-length",
+            "title": "11-string-length",
+            "done": false,
+            "path": "exercises/11-string-length",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "12-string-toUppercase",
+            "title": "12-string-toUppercase",
+            "done": false,
+            "path": "exercises/12-string-toUppercase",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "13-string-toLowerCase",
+            "title": "13-string-toLowerCase",
+            "done": false,
+            "path": "exercises/13-string-toLowerCase",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "14-string-charAt-bucle",
+            "title": "14-string-charAt-bucle",
+            "done": false,
+            "path": "exercises/14-string-charAt-bucle",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "15-string-compare-simple",
+            "title": "15-string-compare-simple",
+            "done": false,
+            "path": "exercises/15-string-compare-simple",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "16-string-compare-equals",
+            "title": "16-string-compare-equals",
+            "done": false,
+            "path": "exercises/16-string-compare-equals",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "17-string-compare-equalsIgnoreCase",
+            "title": "17-string-compare-equalsIgnoreCase",
+            "done": false,
+            "path": "exercises/17-string-compare-equalsIgnoreCase",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "18-string-concatenation",
+            "title": "18-string-concatenation",
+            "done": false,
+            "path": "exercises/18-string-concatenation",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "19-string-concatenation-concat",
+            "title": "19-string-concatenation-concat",
+            "done": false,
+            "path": "exercises/19-string-concatenation-concat",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "20-divisible-number",
+            "title": "20-divisible-number",
+            "done": false,
+            "path": "exercises/20-divisible-number",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "21-declare-variables-funtion",
+            "title": "21-declare-variables-funtion",
+            "done": false,
+            "path": "exercises/21-declare-variables-funtion",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "22-calculate-circle-area",
+            "title": "22-calculate-circle-area",
+            "done": false,
+            "path": "exercises/22-calculate-circle-area",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "23-calculate-product-iva",
+            "title": "23-calculate-product-iva",
+            "done": false,
+            "path": "exercises/23-calculate-product-iva",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "24-calculate-second-grade-equation",
+            "title": "24-calculate-second-grade-equation",
+            "done": false,
+            "path": "exercises/24-calculate-second-grade-equation",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "25-conditions-funtion",
+            "title": "25-conditions-funtion",
+            "done": false,
+            "path": "exercises/25-conditions-funtion",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "26-bucle-for",
+            "title": "26-bucle-for",
+            "done": false,
+            "path": "exercises/26-bucle-for",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "27-bucle-while",
+            "title": "27-bucle-while",
+            "done": false,
+            "path": "exercises/27-bucle-while",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "28-bucle-do-while",
+            "title": "28-bucle-do-while",
+            "done": false,
+            "path": "exercises/28-bucle-do-while",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "29-bucle-while-divisible",
+            "title": "29-bucle-while-divisible",
+            "done": false,
+            "path": "exercises/29-bucle-while-divisible",
+            "translations": [
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "30-bucle-for-divisible",
+            "title": "30-bucle-for-divisible",
+            "done": false,
+            "path": "exercises/30-bucle-for-divisible",
+            "translations": [
+                "us"
+            ],
+            "graded": true
         }
-    ]
+    ],
+    "session": 779701050881349500
 }
