@@ -12,7 +12,6 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/java-beginner-exercises.git)
 
-
 ## Or Local Installation (if you prefer not to use gitpod)
 
 1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `Java openjdk 1.8.0_202`
@@ -26,7 +25,7 @@ $ npm i breathecode-cli -g
 $ bc download:exercises
 ```
 
-Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+> Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
