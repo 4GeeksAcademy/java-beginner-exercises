@@ -8,12 +8,14 @@
 
 35 auto-graded and interactive exercises for people interested in learning Java from Scratch, this tutorial is equally usefull for amateur or experienced develover insterested in learning the basics of programing in Java.
 
-## Start practicing right now in gitpod:
+<!-- hide -->
+## One click installation (recommended):
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/java-beginner-exercises.git)
+You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/java-beginner-exercises) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/java-beginner-exercises.git).
 
+> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
-## Or Local Installation (if you prefer not to use gitpod)
+## Local Installation 
 
 1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `Java openjdk 1.8.0_202`
 ```
@@ -26,7 +28,7 @@ $ npm i breathecode-cli -g
 $ bc download:exercises
 ```
 
-Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+> Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
@@ -37,6 +39,7 @@ $ bc run:exercises
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
+<!-- endhide -->
 
 ## How are the exercises organized?
 
@@ -55,3 +58,5 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 This project follows the
 [all-contributors](https://github.com/kentcdodds/all-contributors)
 specification. Contributions of any kind are welcome!
+
+This and many other exercises are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sánchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and  [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
